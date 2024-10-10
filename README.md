@@ -10,7 +10,8 @@ Assim que o botão de cálculo é acionado, o código em Javascript irá gerar u
 
 ## Evento de Clique no Botão
 
-```javascript botao.addEventListener('click', ()=>{
+```javascript
+    botao.addEventListener('click', ()=>{
     const pessoa1Input = document.getElementById('pessoa1');
     const pessoa2Input = document.getElementById('pessoa2');
     
@@ -70,7 +71,8 @@ Assim que o botão de cálculo é acionado, o código em Javascript irá gerar u
 
         botao.innerText = "Refazer";
     }
-});```
+});
+```
 
 ## Licença
 Este projeto é licenciado sob a Licença MIT. Veja o arquivo [LICENSE](https://github.com/mincostta/lovemeter/blob/main/LICENSE) para mais detalhes.
