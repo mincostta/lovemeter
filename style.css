@@ -1,0 +1,122 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #F4EDE3;
+    text-align: center;
+}
+
+h1 {
+    font-family: "Holtwood One SC", serif;
+    text-align: center;
+    color: #8D5151;
+    font-size: 4em;
+}
+
+p {
+    font-family: "Bevan", serif;
+    color: #8D5151;
+    font-size: 1.5em;
+}
+
+div {
+    display: flex;
+    justify-content: center;
+    gap: 2em;
+    margin-top: 0.5em;
+}
+
+.container {
+    flex-direction: column;
+    gap: 0.5em;
+}
+
+img {
+    width: 30vw;
+    position: relative;
+    display: block;
+    margin: 0 auto;
+}
+
+input {
+    border-radius: 10px;
+    height: 5vh;
+    border-color: #8D5151;
+    font-family: "Bevan", serif;
+    background-color: #F4EDE3;
+    padding-left: 1em;
+    color: #8D5151;
+}
+
+input:focus {
+    border-color: #8D5151;
+}
+
+button {
+    border-radius: 10px;
+    height: 5vh;
+    width: 10em;
+    color: #8D5151;
+    background-color: #F4EDE3;
+    border-color: #8D5151;
+    font-family: "Bevan", serif;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #ffffff;
+}
+
+#resultado {
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    color: white;
+    font-family: "Holtwood One SC", serif;
+    font-size: 2.5em;
+    transform: translate(-50%, -50%);
+    display: none;
+}
+
+@media (max-width: 800px) {
+    h1 {
+        font-size: 1.5em;
+        margin-top: 30%;
+    }
+
+    p {
+        font-size: 0.75em;
+    }
+
+    div {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 1em;
+    }
+
+    input {
+        width: 40vw;
+        height: 3.5vh;
+    }
+
+    button {
+        height: 3.5vh;
+        width: 40vw; 
+    }
+
+    #texto {
+        margin-bottom: 1.5em;
+    }
+
+    img {
+        width: 70vw;
+        margin-top: 1.5em;
+    }
+
+    #resultado {
+        font-size: 1.5em;
+    }
+}
