@@ -76,7 +76,3 @@ Assim que o botão de cálculo é acionado, o código em Javascript irá gerar u
 
 ## Licença
 Este projeto é licenciado sob a Licença MIT. Veja o arquivo [LICENSE](https://github.com/mincostta/lovemeter/blob/main/LICENSE) para mais detalhes.
-
-## Contato
-- [**LinkedIn**](www.linkedin.com/in/yasmin-costa-041aa52a3)
-- [**E-mail**](yasmincostalima07@gmail.com)
