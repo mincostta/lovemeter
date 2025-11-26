@@ -1,5 +1,5 @@
 # 💘 Lovemeter
-Inspirado nos antigos jogos de flash de calculadora do amor, o loveômetro é um website que calcula a porcentagem de compatibilidade entre duas pessoas, feito com o intuito de treinar minhas habilidades em javascript e gerar números aleatórios.
+Inspirado nos antigos jogos de flash de calculadora do amor, o loveômetro é um website que calcula a porcentagem de compatibilidade entre duas pessoas, feito com o intuito de treinar minhas habilidades em javascript e gerar números aleatórios. [Acesse aqui](https://mincostta.github.io/lovemeter/).
 
 ## ⚙️ Tecnologias Usadas
 - **Linguagens**: HTML, CSS, Javascript
