@@ -1,14 +1,14 @@
 # 💘 Lovemeter
-Inspirado nos antigos jogos de flash de calculadora do amor, o loveômetro é um website que calcula a porcentagem de compatibilidade entre duas pessoas, feito com o intuito de treinar minhas habilidades em javascript e gerar números aleatórios. [Acesse aqui](https://mincostta.github.io/lovemeter/).
+Inspired by classic Flash games like the Love Calculator, Lovemeter is a website that calculates the compatibility percentage between two people. It was developed as a way to practice my JavaScript skills, particularly random number generation.
 
-## ⚙️ Tecnologias Usadas
-- **Linguagens**: HTML, CSS, Javascript
-- **Ferramentas**: Git
+## ⚙️ Technologies Used
+- **Languages**: HTML, CSS, JavaScript
+- **Tools**: Git
 
-## 🔧 Funcionamento
-Assim que o botão de cálculo é acionado, o código em Javascript irá gerar um número aleatório entre 1 e 100. O botão só pode ser acionado após o usuário ter digitado dois nomes, com a condição de ambos não poderem ser iguais. A porcentagem prontamente é mostrada, acompanhada de um coração que represente o quão bom é aquele resultado.
+## 🔧 How It Works
+Once the calculate button is clicked, the JavaScript code generates a random number between 1 and 100. The button can only be clicked after the user has entered two names, which must be different from each other. The resulting percentage is displayed instantly, accompanied by a heart emoji representing how good the result is.
 
-## ⚙️ Evento de Clique no Botão
+## ⚙️ Button Click Event
 
 ```javascript
     botao.addEventListener('click', ()=>{
